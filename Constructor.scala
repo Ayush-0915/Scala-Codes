@@ -1,4 +1,4 @@
-class Student(name: String, age: Int) {
+class StudentInfo(name: String, age: Int) {
 
   def display(): Unit = {
     println("Name: " + name)
@@ -6,11 +6,7 @@ class Student(name: String, age: Int) {
   }
 }
 
-object Main {
-  def main(args: Array[String]): Unit = {
-
-    val s1 = new Student("Rahul", 23)
-
-    s1.display()
-  }
+object Constructor extends App {
+  val s1 = new StudentInfo("Rahul", 23)
+  s1.display()
 }

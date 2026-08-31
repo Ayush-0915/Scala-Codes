@@ -22,12 +22,10 @@ class Piano extends Instrument {
 
 object Polymorphism_Encapsulation {
   def main(args: Array[String]): Unit = {
-    // Encapsulation demo
-    val emp = new Employee(25000)
+    val emp = new Employee(25000.0)
     emp.giveBonus(3000)
     println("Employee salary: " + emp.viewSalary())
 
-    // Polymorphism demo
     val instruments: Array[Instrument] = Array(new Guitar(), new Piano())
     for (item <- instruments) {
       println(item.play())
