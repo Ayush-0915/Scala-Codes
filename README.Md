@@ -1,172 +1,129 @@
-# ☕ Scala-Codes
+# Scala-Codes
 
-> A comprehensive collection of Scala programming examples, covering fundamental to object-oriented programming concepts.
-
-![Scala](https://img.shields.io/badge/Scala-3-DC322F?style=for-the-badge&logo=scala)
-![GitHub Repo stars](https://img.shields.io/github/stars/Ayush-0915/Scala-Codes?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Ayush-0915/Scala-Codes?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+A collection of Scala programs covering basics, object-oriented programming, inheritance, traits, encapsulation, and assignment-based practice.
 
 ---
 
-## 📖 About
+## About
 
-This repository contains my Scala learning journey with well-organized examples of core programming concepts.
-
-Whether you're a beginner or revising Scala fundamentals, these examples can help you understand the language step by step.
+This repository is a learning workspace for Scala concepts. It includes beginner-level examples, class and object programs, constructor examples, control flow programs, and assignment files demonstrating common OOP and functional programming ideas.
 
 ---
 
-## 📂 Topics Covered
+## Topics Covered
 
-| Topic | Status |
-|-------|:------:|
-| Variables | ✅ |
-| Operators | ✅ |
-| Control Statements | ✅ |
-| Loops | ✅ |
-| Functions | ✅ |
-| Function Examples | ✅ |
-| Classes & Objects | ✅ |
-| Constructors | ✅ |
-| Encapsulation | ✅ |
-| Inheritance | ✅ |
-| Method Overriding | ✅ |
-| Object-Oriented Programming | ✅ |
-| Practice Programs | ✅ |
+- Variables and data types
+- Operators
+- Input handling
+- Control statements
+- Loops
+- Functions and higher-order style examples
+- Classes and objects
+- Constructors
+- Encapsulation
+- Inheritance
+- Method overriding
+- Traits and multiple inheritance
+- Abstract classes
+- Case classes and pattern matching
+- Exception handling
+- Polymorphism
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
-```
+```text
 Scala-Codes/
-│
-├── Variables.scala
-├── Operators.scala
-├── Control.scala
-├── Loops.scala
-├── Functions.scala
-├── Function_2.scala
-├── Class_Objects.scala
-├── Class and objects_2.scala
+├── Classes_Objects.scala
 ├── Constructor.scala
+├── Control.scala
 ├── Encapsulation.scala
+├── Function_2.scala
+├── Hello.scala
 ├── Inheritance.scala
+├── Loops.scala
+├── Operators.scala
 ├── Overridding.scala
+├── Traits.scala
 ├── Update.scala
-├── new.scala
-├── .gitignore
-└── README.md
+├── Variables.scala
+├── input.scala
+├── multiple.scala
+├── try_catch.scala
+├── README.Md
+├── Assignment 2/
+│   ├── Abstract_Class_vs_Trait.scala
+│   ├── Case_Classes_Pattern_Matching.scala
+│   ├── Class_Object_Basics.scala
+│   ├── Constructors.scala
+│   ├── Encapsulation.scala
+│   ├── Inheritance.scala
+│   ├── Runtime_Polymorphism.scala
+│   └── Traits_Multiple_Inheritance.scala
+└── Scala Assignment/
+    ├── block_expression.scala
+    ├── Function_overriding.scala
+    ├── Loops_Control_Statement.scala
+    ├── Polymorphism_Encapsulation.scala
+    └── single_level_inheritence.scala
 ```
 
 ---
 
-## 🚀 Getting Started
+## How to Run Scala Programs
 
-### Clone the Repository
+Make sure Scala is installed on your system.
 
-```bash
-git clone https://github.com/Ayush-0915/Scala-Codes.git
-```
-
-Move into the project folder
-
-```bash
-cd Scala-Codes
-```
-
----
-
-## ▶️ Running a Scala Program
-
-Using Scala CLI
-
-```bash
-scala run Variables.scala
-```
-
-Compile
+1. Compile a file:
 
 ```bash
 scalac Variables.scala
 ```
 
-Run
+2. Run the compiled class:
 
 ```bash
 scala Variables
 ```
 
----
+You can also run a Scala file directly if your environment supports it:
 
-## 💻 Technologies Used
-
-- Scala 3
-- Scala CLI
-- VS Code
-- Metals
-- Git
-- GitHub
+```bash
+scala Variables.scala
+```
 
 ---
 
-## 🎯 Learning Roadmap
+## Example Files
 
-- ✅ Scala Setup
-- ✅ Variables
-- ✅ Operators
-- ✅ Conditional Statements
-- ✅ Loops
-- ✅ Functions
-- ✅ Classes
-- ✅ Objects
-- ✅ Constructors
-- ✅ Encapsulation
-- ✅ Inheritance
-- ✅ Method Overriding
-- ⏳ Traits
-- ⏳ Case Classes
-- ⏳ Pattern Matching
-- ⏳ Collections
-- ⏳ Exception Handling
-- ⏳ File Handling
-- ⏳ Functional Programming
+- `Variables.scala` – variable declaration and usage
+- `Operators.scala` – arithmetic and comparison operators
+- `Control.scala` – if/else decision-making
+- `Loops.scala` – for and while loops
+- `Function_2.scala` – function examples
+- `Classes_Objects.scala` – class/object basics
+- `Constructor.scala` – constructor implementation
+- `Encapsulation.scala` – data hiding using private members
+- `Inheritance.scala` – parent-child class relationship
+- `Overridding.scala` – method overriding
+- `traits.scala` – trait implementation
+- `try_catch.scala` – exception handling
 
 ---
 
-## 📚 Purpose
+## Notes
 
-This repository is maintained to:
-
-- Practice Scala programming
-- Strengthen Object-Oriented Programming concepts
-- Build a reference for future learning
-- Share examples with other learners
+This project is intended for learning and practice. Some files are basic examples, while others are assignment-oriented and cover advanced OOP topics.
 
 ---
 
-## 🤝 Contributions
+## Author
 
-Contributions, suggestions, and improvements are welcome.
-
-Feel free to fork this repository and submit a pull request.
+Ayush Singh
 
 ---
 
-## 👨‍💻 Author
+## License
 
-### Ayush Singh
-
-🎓 B.Tech – Artificial Intelligence & Machine Learning
-
-- GitHub: **https://github.com/Ayush-0915**
-- LinkedIn: **https://www.linkedin.com/in/ayush-singh-0915ap/**
-
----
-
-## ⭐ Support
-
-If you find this repository useful, don't forget to ⭐ star it.
-
-Happy Coding! 🚀
+This project is for educational purposes and is maintained as a personal learning repository.
