@@ -6,7 +6,7 @@ case class Bike(model: String) extends Vehicle
 
 case class Truck(model: String, capacityTons: Double) extends Vehicle
 
-object Case_Classes_Pattern_Matching extends App {
+object Case_Classes_Pattern_Matching {
 
   def describeVehicle(v: Vehicle): String = {
     v match {
@@ -21,13 +21,15 @@ object Case_Classes_Pattern_Matching extends App {
     }
   }
 
-  val car = Car("Toyota", 5)
-  val bike = Bike("Yamaha")
-  val truck = Truck("Volvo", 10.5)
+  def main(args: Array[String]): Unit = {
+    val car = Car("Toyota", 5)
+    val bike = Bike("Yamaha")
+    val truck = Truck("Volvo", 10.5)
 
-  println(describeVehicle(car))
-  println(describeVehicle(bike))
-  println(describeVehicle(truck))
+    println(describeVehicle(car))
+    println(describeVehicle(bike))
+    println(describeVehicle(truck))
+  }
 }
 
 /*
